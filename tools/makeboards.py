@@ -195,6 +195,7 @@ print("# and are not officially supported")
 print("# -------------------------------------------------------")
 
 thirdparty_boards_list = [
+    [52832, "pca10040", "pca10040", "Nordic", "nRF52 DK", "NRF52832_PCA10040", "0x239A", []],
     [52840, "pca10056", "pca10056", "Nordic", "nRF52840 DK", "NRF52840_PCA10056", "0x239A", ["0x80DA", "0x00DA"]],
     [52833, "pca10100", "pca10100", "Nordic", "nRF52833 DK", "NRF52833_PCA10100", "0x239A", ["0x80D8", "0x00D8"]],
     [52840, "particle_xenon", "particle_xenon", "Particle", "Xenon", "PARTICLE_XENON", "0x239A", ["0x80DA", "0x00DA"]],
